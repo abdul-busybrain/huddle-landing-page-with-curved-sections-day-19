@@ -1,0 +1,91 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+
+  /* ### Neutral */
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+
+  /* font */
+  --Poppins: "Poppins", sans-serif;
+  --Open-Sans: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+}
+.try-btn {
+  border: 1px solid var(--Light-Pink);
+  border-radius: 2rem;
+  padding: 0rem 2rem;
+  background-color: white;
+  color: var(--Light-Pink);
+}
+
+h1,
+h2 {
+  font-family: var(--Open-Sans);
+}
+
+p {
+  font-family: var(--Poppins);
+  color: var(--Very-Dark-Cyan);
+}
+
+.section {
+}
+.one {
+  width: 70%;
+  margin: 0 auto;
+}
+.header {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 2;
+}
+.para {
+  width: 55%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.cta {
+  color: white;
+  background-color: var(--Pink);
+  border: none;
+  padding: 1.2rem 4rem;
+  border-radius: 2rem;
+  margin-bottom: 6rem;
+}
+
+.screen-mockups {
+  width: 90%;
+}
