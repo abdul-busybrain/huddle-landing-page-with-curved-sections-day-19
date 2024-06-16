@@ -65,6 +65,7 @@ p {
 .one {
   width: 70%;
   margin: 0 auto;
+  padding-bottom: 6rem;
 }
 .header {
   font-weight: 700;
@@ -88,4 +89,16 @@ p {
 
 .screen-mockups {
   width: 90%;
+}
+
+.two {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.engage {
+  font-size: 5rem;
 }
